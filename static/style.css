@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@media screen and (min-width: 1700px) {
+	.msg_cotainer{
+		max-width: 665px !important;
+	}
+	.msg_cotainer_send{
+		max-width: 665px !important;
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1699px) {
+	.msg_cotainer{
+		max-width: 500px !important;
+	}
+	.msg_cotainer_send{
+		max-width: 500px !important;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 999px) {
+	.msg_cotainer{
+		max-width: 350px !important;
+	}
+	.msg_cotainer_send{
+		max-width: 350px !important;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 449px) {
+	.msg_cotainer{
+		max-width: 270px !important;
+	}
+	.msg_cotainer_send{
+		max-width: 270px !important;
+	}
+}
+
+
+body,html{
+	font-family: "Nunito", sans-serif;
+	height: 100%;
+	margin: 0;
+	background: #4B4B4B;
+	
+}
+
+.chat{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.card{
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+}
+
+.msg_card_body{
+	overflow-y: auto;
+}
+.card-header{
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 0 !important;
+}
+.card-footer{
+	border-radius: 0 0 15px 15px !important;
+	border-top: 0 !important;
+}
+.container{
+	align-content: center;
+}
+
+
+.type_msg{
+	background-color: #4B4B4B !important;
+	border:0 !important;
+	color:white !important;
+	height: 60px !important;
+	overflow-y: auto;
+}
+	.type_msg:focus{
+	 box-shadow:none !important;
+   	outline:0px !important;
+}
+
+.send_btn{
+	
+	background-color: #4B4B4B !important;
+	border:0px !important;
+	color: #DFD8C8 !important;
+	cursor: pointer;
+}
+
+
+.user_info{
+	margin: 0px auto;
+
+}
+.user_info span{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+    color: #FFFFFF;
+
+}
+.user_info p{
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	color: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+.msg_cotainer{
+
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #BCB4A5;
+	padding: 10px;
+	position: relative;
+	font-weight: 300;
+    color: #FFFFFF; 
+}
+.msg_cotainer_send{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: #827C71;
+	padding: 10px;
+	position: relative;
+    font-weight: 300;
+    color: #FFFFFF; 
+}
+.msg_time{
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(255,255,255,0.5);
+	font-size: 10px;
+	font-weight: 300;
+}
+.msg_time_send{
+	position: absolute;
+	right:0;
+	bottom: -15px;
+	color: rgba(255,255,255,0.5);
+	font-size: 10px;
+	font-weight: 300;
+}
+.msg_head{
+	position: relative;
+}
+
+.form-control{
+	border-radius: 30px 0px 0px 30px !important;
+}
+.input-group-text{
+	border-radius: 0px 30px 30px 0px !important;
+	
+}
+
+@media(max-width: 576px){
+	.contacts_card{
+	margin-bottom: 15px !important;
+}
+}
+

@@ -1,0 +1,4 @@
+pip install openpyxl flask transformers pandas numpy sentence_transformers mysql.connector torch langdetect
+
+
+

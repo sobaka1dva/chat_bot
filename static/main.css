@@ -1,0 +1,105 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+
+body{
+    font-family: "Nunito", sans-serif;
+    background: #4B4B4B;
+    height: 100%;
+      
+}
+
+.wrapper{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+._container{
+    max-height: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+
+.page{
+    
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+    
+}
+
+.main-block__container {
+    width: 1200px;
+}
+
+.main-block__body{
+    padding: 103px 0px 103px 0px;
+    max-width: 540px;
+
+}
+
+img{
+    width: 500px;
+}
+
+.main-block__img{
+    max-width: 500px;
+    float: right;
+    padding: 103px 0px 103px 0px;
+}
+
+.main-block__body > *:not(:last-child){
+    margin: 0px 0px 60px 0px;
+}
+
+.main-block__title1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: calc(68/50*100%);
+    color: #BCB4A5;
+
+}
+
+
+
+
+
+
+.main-block__text{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: calc(30/22*100%);
+    color: rgba(255, 255, 255, 0.5); 
+    
+
+}
+
+.main-block__button{
+    display: inline-flex;
+
+}
+
+.main-block__button-go{
+    border-radius: 30px;
+    background: #A39274;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    min-height: 60px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: calc(16/16*100%);
+
+}
+
+
+
